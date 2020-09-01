@@ -1,0 +1,26 @@
+.FinishedQuiz {
+    padding: 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.FinishedQuiz ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.FinishedQuiz ul li i {
+    color:red;
+    animation-name: rotate;
+    animation-duration:  3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
